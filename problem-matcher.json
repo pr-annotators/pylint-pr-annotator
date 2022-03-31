@@ -1,11 +1,11 @@
 {
     "problemMatcher": [
         {
-            "owner": "{tool-name}-error",
+            "owner": "pylint-error",
             "severity": "error",
             "pattern": [
                 {
-                    "regexp": "^([^:]+):(\\d+):(\\d+):\\s+(\\w+\\d+\\s+.+)$",
+                    "regexp": "^([^:]+):(\\d+):(\\d+):\\s+(.*)$",
                     "file": 1,
                     "line": 2,
                     "column": 3,

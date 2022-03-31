@@ -1,5 +1,5 @@
-name: "{tool-name} PR Annotator"
-description: "Annotate pull requests with {tool-name} errors detected during CI"
+name: "Pylint PR Annotator"
+description: "Annotate pull requests with pylint errors detected during CI"
 author: "Joe Young"
 runs:
   using: "composite"
